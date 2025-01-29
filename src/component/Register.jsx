@@ -1,4 +1,4 @@
-import { FormControl, FormControlLabel, FormLabel, Radio, RadioGroup, TextField } from '@mui/material'
+import { Button, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup, TextField } from '@mui/material'
 import React from 'react'
 
 function Register() {
@@ -23,7 +23,7 @@ function Register() {
 <TextField id="standard-basic" label="Name" variant="outlined" />
 <br /> <br />
 <TextField id="standard-basic" label="Password" variant="outlined" />
-<br /> <br />
+<br /> 
 <FormControl>
       <RadioGroup
         row
@@ -35,6 +35,8 @@ function Register() {
        
       </RadioGroup>
     </FormControl>
+    <br /> <br />
+    <Button variant="contained">submit</Button>
     </div>
   )
 }

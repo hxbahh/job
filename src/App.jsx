@@ -9,11 +9,7 @@ function App() {
         <Route path='/Login' element={<Login />}></Route>
         <Route path='/' element={<Register/>}></Route>
       </Routes>
-
-      
-
     </div>
   )
 }
-
 export default App
